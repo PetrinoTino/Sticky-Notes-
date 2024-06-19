@@ -40,6 +40,5 @@ createStickyNote = (text) => {
   note.addEventListener("dblclick", () => {
     note.remove();
   })
-
-  document.querySelector("#all_notes").appendChild(note);
+document.querySelector("#all_notes").appendChild(note);
 }
